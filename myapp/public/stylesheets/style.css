@@ -1,0 +1,105 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: rgba(219, 218, 214, 0.87)
+}
+
+a {
+  color: #00B7FF;
+}
+
+/*LAYOUT*/
+h1,
+h2,
+#navbar {
+  text-align: center;
+  font-size: 25px;
+}
+h1,
+h2 {
+  background-color: rgb(237, 185, 28);
+  padding: 20px;
+  font-size: 33px;
+  color: rgb(246, 241, 240);
+}
+
+p {
+  font-size: 18px;
+  text-align: center;
+}
+#navbar {
+  background-color: rgb(48, 55, 73);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+#navbar li {
+  list-style-type: none;
+  margin-left: 20px;
+  background-color: white;
+  padding: 20px;
+  transition: 0.3s;
+}
+#navbar li a {
+  text-decoration: none;
+  padding: 20px;
+  color: black;
+  font-size: 18px;
+}
+#navbar li:hover {
+  background-color: rgb(222, 205, 210);
+  transition: 0.3s;
+}
+/*END LAYOUT*/
+
+/*Home*/
+#homeImg {
+  display: block;
+  margin: auto;
+}
+
+/*Skills*/
+#skills-list {
+display: flex;
+justify-content: space-around;
+flex-direction: column;
+}
+#skills-list li {
+  list-style-type: none;
+  font-size: 22px;
+}
+
+/*Dream*/
+
+
+
+/*Contact*/
+.fa {
+  color: rgb(245, 184, 121);
+}
+#form  {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#form p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 18px;
+  width: 25%;
+}
+#form input {
+  padding: 5px;
+  width:
+}
+button {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(237, 185, 28);
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+
+}
